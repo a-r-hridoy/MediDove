@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- goggle-fonts-start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Open+Sans:wght@500&family=Raleway:wght@400;500;700&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <!-- goggle-font-end -->
+    <!-- bootstarp-link-start -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- bootstarp-link-end -->
+     <!-- owl-carousel-start -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!-- owl-carousel-end -->
+      <!-- swiper-slide-link-start -->
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <!-- swiper-slide-link-end -->
+      <!-- select-2-link-start -->
+      <link rel="stylesheet" href="assets/css/select2.min.css">
+      <!-- select-2-link-end -->
+    <!-- font-awesome-link-start -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <!-- font-awesome-link-end -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>MediDove</title>
+</head>
+
+<body onload="preloder_function()">
+
+<!-- Preloader area start -->
+<div id="preloader">
+
+</div>
+<!-- Preloader area end -->
+
+
+<!-- navbar-start -->
+<nav class="navbar navbar-expand-xl bg-body-tertiary fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+        <div class="nav-img"><img src="	https://medi-dove.netlify.app/img/logo/logo.png" alt=""></div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse  justify-content-center" id="navbarNavAltMarkup">
+        <div class="navbar-nav ">
+            <a class="nav-link active" aria-expanded="false" href="index.html"> Home  </a>
+       
+        
+            <a class="nav-link " aria-expanded="false" href="service.html">Service  </a>
+      
+        
+            <a class="nav-link " aria-expanded="false" href="doctor.html">Doctors </a>
+      
+            <div class="dropdown  nav-link ">
+                <a class="" href="shop.html"> <button class="dropbtn">Shop</button></a>
+                <div class="dropdown-content">
+                  <a href="shop.html">Shop Page</a>
+                  <a href="shop-details.html">Shop Details</a>
+                </div>
+            </div>   
+         
+        
+        
+            <a class="nav-link " aria-expanded="false" href="blog.html">Blog </a>
+
+            <a class="nav-link " aria-expanded="false" href="contact.html">Contact Us </a>
+        </div>
+        </div>
+        <div class="country-drop">
+            <select class="cmn-select2-image" name="state">
+                <option value="gb">AUS</option>
+                <option value="bd">BD</option>
+                <option value="us">US</option>
+                <option value="in">IND</option>
+                <option value="ca">CAD</option>
+                <option value="af">AFN</option>
+                <option value="al">ALL</option>
+                <option value="eu">EUR</option>
+                <option value="tr">TRY</option>
+                <option value="id">IDR</option>
+                <option value="SG">SGD</option>
+                <option value="JP">JPY</option>
+                <option value="KR">KRW</option>
+            </select>
+        </div>
+    </div>
+</nav>
+<!-- navbar-end -->
+
+
+<!-- hero-section-start -->
+<!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide slider1">
+       <div class="slide-content">
+        <h5>We are Here for your care.</h5>
+        <h2>Best Care & Better Doctor.</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <a class="btn-icon" href="contact.html"><i class="fa-solid fa-plus"></i>Make Appoinment</a>
+       </div>
+      </div>
+      <div class="swiper-slide slider2">
+        <div class="slide-content">
+         <h5>We are Here for your care.</h5>
+         <h2>Best Care & Better Doctor.</h2>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+         <a class="btn-icon" href="contact.html"><i class="fa-solid fa-plus"></i>Make Appoinment</a>
+        </div>
+      </div>
+    </div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+</div>
+<!-- hero-section-end -->
+
+
+<!-- about-section-start -->
+<section class="about-section">
+    <div class="container">
+        <div class="row ">
+            <div class="col-lg-6  about-img">
+                <div class="brand-icon">
+                    <img src="https://medi-dove.netlify.app/img/about/medical-brand-icon-border.png" alt="">
+                </div>
+                <div class="about-img2">
+                    <img src="https://medi-dove.netlify.app/img/about/about-img.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6 d-flex flex-column justify-content-center ">
+                <div class="about-content">
+                    <h5>About Us</h5>
+                    <h2>Short Story About MediDove Clinic</h2>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+                <div class="about-athority d-flex align-items-center">
+                    <div class="athor-dr">
+                        <img src="https://medi-dove.netlify.app/img/about/author-ava.png" alt="">
+                    </div>
+                    <div class="athor-content">
+                        <h4>Rosalina D. Williamson</h4>
+                        <h6>Founder</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- about-section-end -->
+
+<!-- services-section-start -->
+<section class="services-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="services-title text-center">
+                    <div class="services-icon">
+                        <img src="https://medi-dove.netlify.app/img/section/section-back-icon.png" alt="">
+                    </div>
+                    <div class="services-text">
+                        <h5>Body Surgery</h5>
+                        <h2>Managed Your Heathcare Services</h2>
+                    </div>
+                    <div class="services-line pos-rel">
+                        <img src="	https://medi-dove.netlify.app/img/shape/section-title-line.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+                <div class="services-box">
+                    <div class="services-img">
+                        <img src="	https://medi-dove.netlify.app/img/services/service1.png" alt="">
+                    </div>
+                    <div class="services-content">
+                        <a href="#">Dental Care</a>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                        <a class="services-more" href="#">Reade More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+               <div class="services-box">
+                <div class="services-img">
+                    <img src="https://medi-dove.netlify.app/img/services/service2.png" alt="">
+                </div>
+                <div class="services-content">
+                    <a href="#">service-content</a>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                    <a class="services-more" href="#">Reade More</a>
+                </div>
+               </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="services-box">
+                    <div class="services-img">
+                        <img src="https://medi-dove.netlify.app/img/services/service3.png" alt="">
+                    </div>
+                    <div class="services-content">
+                        <a href="#">Service-content</a>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                        <a class="services-more" href="#">Reade More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="services-box">
+                    <div class="services-img">
+                        <img src="https://medi-dove.netlify.app/img/services/service4.png" alt="">
+                    </div>
+                    <div class="services-content">
+                        <a href="#">Blood Cancer</a>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                        <a class="services-more" href="#">Reade More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="services-box">
+                    <div class="services-img">
+                        <img src="	https://medi-dove.netlify.app/img/services/service5.png" alt="">
+                    </div>
+                    <div class="services-content">
+                        <a href="#">Neurology Sargery</a>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                        <a class="services-more" href="#">Reade More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="services-box">
+                    <div class="services-img">
+                        <img src="https://medi-dove.netlify.app/img/services/service6.png" alt="">
+                    </div>
+                    <div class="services-content">
+                        <a href="#">Allergic Issue</a>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                        <a class="services-more" href="#">Reade More</a>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+</section>
+<!-- services-section-end -->
+
+
+<!-- team-section-start -->
+<section class="team-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 col-lg-7 col-md-10  team">
+                <div class="team-title">
+                    <div class="team-icon">
+                        <img src="https://medi-dove.netlify.app/img/section/section-back-icon.png" alt="">
+                    </div>
+                    <div class="team-text text-start">
+                        <h5>Our Team</h5>
+                        <h2>A Professional & Care Provider</h2>
+                    </div>
+                    <div class="team-line text-start">
+                        <img src="	https://medi-dove.netlify.app/img/shape/section-title-line.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 team-btn d-flex flex-column justify-content-center align-items-center">
+                <a href="contact.html"><i class="fa-solid fa-plus"></i>Make Appoinment</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="team-box">
+                    <div class="team-img">
+                        <img src="	https://medi-dove.netlify.app/img/team/member1.png" alt="">
+                        <a class="team-link" href="contact.html"><i class="fa-solid fa-plus"></i></a>
+                    </div>
+                    <div class="team-title">
+                        <h4>Rosalina D. Williamson</h4>
+                        <h6>Founder</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="team-box">
+                    <div class="team-img">
+                        <img src="	https://medi-dove.netlify.app/img/team/member2.png" alt="">
+                        <a class="team-link" href="contact.html"><i class="fa-solid fa-plus"></i></a>
+                    </div>
+                    <div class="team-title">
+                        <h4>Diconda PIran Will</h4>
+                        <h6>DENTIST</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="team-box">
+                    <div class="team-img">
+                        <img src="	https://medi-dove.netlify.app/img/team/member3.png" alt="">
+                        <a class="team-link" href="contact.html"><i class="fa-solid fa-plus"></i></a>
+                    </div>
+                    <div class="team-title">
+                        <h4>Hulk M. Kenbon</h4>
+                        <h6>NEUROLOGIST</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="team-box">
+                    <div class="team-img">
+                        <img src="https://medi-dove.netlify.app/img/team/member4.png" alt="">
+                        <a class="team-link" href="contact.html"><i class="fa-solid fa-plus"></i></a>
+                    </div>
+                    <div class="team-title">
+                        <h4>Haliam Z. Dicolaz</h4>
+                        <h6>CONSULTANT</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="team-box">
+                    <div class="team-img">
+                        <img src="https://medi-dove.netlify.app/img/team/member5.png" alt="">
+                        <a class="team-link" href="contact.html"><i class="fa-solid fa-plus"></i></a>
+                    </div>
+                    <div class="team-title">
+                        <h4>Nicolas D. Case</h4>
+                        <h6>DENTIST</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="team-box">
+                    <div class="team-img">
+                        <img src="	https://medi-dove.netlify.app/img/team/member6.png" alt="">
+                        <a class="team-link" href="contact.html"><i class="fa-solid fa-plus"></i></a>
+                    </div>
+                    <div class="team-title">
+                        <h4>Phumdon H. Norman</h4>
+                        <h6>NEUROLOGIST</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- team-section-end -->
+
+
+<!-- challenge-section-start -->
+    <section class="challenge-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-10">
+                    <div class="challenge-content">
+                        <h5>We are available 24/7</h5>
+                        <h2>We Always Ready For A Challenge.</h2>
+                    </div>              
+                    <div class="team-btn d-flex">
+                        <a href="contact.html"><i class="fa-solid fa-plus"></i>Make Appoinment</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-8 ">
+                    <div class="box d-flex">
+                        <div class="challenge-title1">
+                            <h5>1M+</h5>
+                        </div>
+                        <div class="challenge-text">
+                            <h5><i class="fa-solid fa-user"></i> Satisfied Patients</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                        </div>
+                    </div>
+                    <div class="box d-flex">
+                        <div class="challenge-title1">
+                            <h5>100+</h5>
+                        </div>
+                        <div class="challenge-text">
+                            <h5><i class="fa-regular fa-thumbs-up"></i> World Awards</h5>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- challenge-section-end -->
+
+<!-- plan-section-start -->
+<section class="plan-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 plan">
+                <div class="plan-title">
+                    <div class="plan-icon">
+                        <img src="https://medi-dove.netlify.app/img/section/section-back-icon.png" alt="">
+                    </div>
+                    <div class="plan-text text-start">
+                        <h5>Our Plan</h5>
+                        <h2>Pricing & Plans</h2>
+                    </div>
+                    <div class="plan-line text-start">
+                        <img src="	https://medi-dove.netlify.app/img/shape/section-title-line.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="plan-box">
+                    <div class="plan-img">
+                        <img src="	https://medi-dove.netlify.app/img/pricing/pricing-thumb-1.png" alt="">
+                    </div>
+                    <div class="plan-title">
+                        <h4>Professional</h4>
+                        <p>Ut enim ad minim veniam, quis istomw nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                    </div>
+                    <div class=" plan-btn d-flex justify-content-center align-items-center">
+                        <a href="contact.html"><i class="fa-solid fa-plus"></i>PRICE:$425.00</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="plan-box">
+                    <div class="plan-img">
+                        <img src="https://medi-dove.netlify.app/img/pricing/pricing-thumb-2.png" alt="">
+                    </div>
+                    <div class="plan-title">
+                        <h4>Advanced</h4>
+                        <p>Ut enim ad minim veniam, quis istomw nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                    </div>
+                    <div class=" plan-btn d-flex justify-content-center align-items-center">
+                        <a href="contact.html"><i class="fa-solid fa-plus"></i>PRICE:$455.00</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="plan-box">
+                    <div class="plan-img">
+                        <img src="	https://medi-dove.netlify.app/img/pricing/pricing-thumb-3.png" alt="">
+                    </div>
+                    <div class="plan-title">
+                        <h4>Advantage</h4>
+                        <p>Ut enim ad minim veniam, quis istomw nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                    </div>
+                    <div class=" plan-btn d-flex justify-content-center align-items-center">
+                        <a href="contact.html"><i class="fa-solid fa-plus"></i>PRICE:$489.00</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+</section>
+<!-- plan-section-end -->
+
+<!-- banner-section-start -->
+<section class="banner-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="banner-content">
+                    <h5>Stay healthy & strong to enjoy life</h5>
+                    <h2>Trust Us To Be There To Help All & Make Things Well Again.</h2>
+                </div>
+                <div class="banner-btn d-flex flex-column justify-content-center align-items-center m-auto">
+                    <a href="contact.html"><i class="fa-solid fa-plus"></i>GET A CONSULTANT</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- banner-section-end -->
+
+<!-- blog-section-start -->
+<section class="blog-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-10 blog">
+                <div class="blog-title">
+                    <div class="blog-icon">
+                        <img src="https://medi-dove.netlify.app/img/section/section-back-icon.png" alt="">
+                    </div>
+                    <div class="blog-top-text text-start">
+                        <h5>News</h5>
+                        <h2>Get Every Single Updates Here.</h2>
+                    </div>
+                    <div class="blog-line text-start">
+                        <img src="	https://medi-dove.netlify.app/img/shape/section-title-line.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 blog-btn d-flex flex-column justify-content-center align-items-center">
+                <a href="blog.html"><i class="fa-solid fa-plus"></i>OUR BLOG</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-4 col-lg-6 col-md-6">
+                <div class="blog-box">
+                    <div class="blog-img">
+                        <img src="https://medi-dove.netlify.app/img/blog/blog-thumb-1.jpg" alt="">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-content-news">
+                            <span><a href="/blogDetails">Medical,</a></span>
+                            <span><a href="/blogDetails">Medicine</a></span>
+                        </div>
+                        <h3><a href="/blogDetails">Lorem ipsum dolor sit amet, cons ectetur adidis dicolo wiran.</a></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 col-md-6">
+                <div class="blog-box">
+                    <div class="blog-img">
+                        <img src="	https://medi-dove.netlify.app/img/blog/blog-thumb-2.jpg" alt="">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-content-news">
+                            <span><a href="/blogDetails">Medical,</a></span>
+                            <span><a href="/blogDetails">Medicine</a></span>
+                        </div>
+                        <h3><a href="/blogDetails">Lorem ipsum dolor sit amet, cons ectetur adidis dicolo wiran.</a></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-12 col-md-12">
+                <div class="blog-box2">
+                    <div class="blog-text">
+                        <h3>Lorem ipsum dolor sit amet, consectetur adidis.</h3>
+                        <span><i class="fa-regular fa-calendar"></i> 23rd Jan 2022</span>
+                        <span><i class="fa-regular fa-comments"></i> 33 Comments</span>
+                    </div>
+                    <div class="blog-text">
+                        <h3>Lorem ipsum dolor sit amet, consectetur adidis.</h3>
+                        <span><i class="fa-regular fa-calendar"></i> 23rd Jan 2022</span>
+                        <span><i class="fa-regular fa-comments"></i> 33 Comments</span>
+                    </div>
+                    <div class="blog-text">
+                        <h3>Lorem ipsum dolor sit amet, consectetur adidis.</h3>
+                        <span><i class="fa-regular fa-calendar"></i> 23rd Jan 2022</span>
+                        <span><i class="fa-regular fa-comments"></i> 33 Comments</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+</section>
+<!-- blog-section-end -->
+
+
+<!-- footer-section-start -->
+<footer>
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="contact-into">
+                        <div class="emmergency-call d-flex">
+                            <div class="emmergency-icon">
+                                <i class="fa-solid fa-phone fa-rotate-270"></i>
+                            </div>
+                            <div class="emmergency-text">
+                                <h6>Emergency number</h6>
+                                <span>202-555-0104</span>
+                            </div>
+                        </div>
+                        <div class="footer-logo">
+                            <a href="#">
+                                <img src="	https://medi-dove.netlify.app/img/logo/footer-logo.png" alt="">
+                            </a>
+                        </div>
+                        <div class="footer-contact-content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        </div>
+                        <div class="footer-emailing">
+                            <ul>
+                                <li><i class="fa-light fa-envelope"></i> info@examplemedical.com</li>
+                                <li><i class="fa-sharp fa-light fa-clone"></i> examplemedical.com</li>
+                                <li><i class="fa-regular fa-flag"></i> 227 Marion Street, Columbia</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer-content">
+                        <div class="footer-title">
+                            <h3>Departments</h3>
+                        </div>
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="#">Surgery and Radiology</a></li>
+                                <li><a href="#">Family Medicine</a></li>
+                                <li><a href="#">Women’s Health</a></li>
+                                <li><a href="#">Optician</a></li>
+                                <li><a href="#">Pediatrics</a></li>
+                                <li><a href="#">Dermatology</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer-content footer-content2">
+                        <div class="footer-title">
+                            <h3>Quick Links</h3>
+                        </div>
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="#">Departments</a></li>
+                                <li><a href="#">Our Doctors</a></li>
+                                <li><a href="#">News</a></li>
+                                <li><a href="#">Shop</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Book an Appointment</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-copyright text-center">
+                        <p>Copyright by@ BasicTheme - 2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- footer-section-end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="./main.js" type="module"></script>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="select2.min.js"></script>
+    <script src="main.js"></script>
+
+
+   
+
+</body>
+
+</html>
